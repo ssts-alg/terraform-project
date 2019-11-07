@@ -11,3 +11,8 @@ output "Instace_ID" {
 output "Private_Instance_Private_IP" {
   value = aws_instance.private.*.private_ip
 }
+
+
+output "Private_Instance_Private_IP" {
+  value = aws_instance.private.*.private_ip
+}
